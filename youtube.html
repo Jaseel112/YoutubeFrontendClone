@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Youtube Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="youtube.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="sidebar.css">
+  
+</head>
+<body>
+  <div class="header">
+
+    <div class="lefthead">
+      <img class="ham" src="headerpics\hamburger-menu.svg">
+      <img class="logo" src="headerpics\youtube-logo.svg">
+    </div>
+
+    <div class="middlehead">
+      <input class="searchbar" type="text" placeholder="Search">
+      <button class="searchb"><img class="search" src="headerpics\search.svg"><div class="tooltip">Search</div></button>
+      <button class="micb"><img class="mic" src="headerpics\voice-search-icon.svg"><div class="tooltip">Search with your voice</div></button>
+    </div>
+
+    <div class="righthead">
+      <div class="upcontainer">
+        <img class="up" src="headerpics\upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="appcontainer">
+        <img  class="app" src="headerpics\youtube-apps.svg">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+    <div class="notcontainer">
+      <img class="not" src="headerpics\notifications.svg">
+      <div class="notcount">3</div>
+      <div class="tooltip">Notifications</div>
+    </div>
+    <img class="currentuser" src="headerpics\my channel.jpg">
+    </div>
+    
+  </div>
+  <div class="sidebar">
+    <div class="sides"><img src="sidebar\home.svg">
+    <div>Home</div>
+    </div>
+    <div class="sides"><img src="sidebar\explore.svg"><div>Explore</div></div>
+    <div class="sides"><img src="sidebar\subscriptions.svg"><div>Subscription</div></div>
+    <div class="sides"><img src="sidebar\originals.svg"><div>Originals</div></div>
+    <div class="sides"><img src="sidebar\youtube-music.svg"><div>Youtube Music</div></div>
+    <div class="sides"><img src="sidebar\library.svg"><div>Library</div></div>
+  </div>
+
+  <div style="display:grid;
+              grid-template-columns:1fr 1fr 1fr;
+              column-gap:16px;
+              row-gap:40px; 
+  ">
+
+    <div class="videobox">
+
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-1.webp">
+        <div class="time">14:20</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-1.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+
+          <p class="author">
+            Marques Brownlee 
+          </p>
+          
+          <p class="stats">
+            3.4M views &#183; 6 months ago
+          </p>
+          
+          
+        </div>
+        
+      </div>
+     
+    </div>
+  
+     <div class="videobox">
+  
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-2.webp">
+        <div class="time">8:22</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-2.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">
+           
+Try Not To Laugh Challenge #9
+          </p>
+
+          <p class="author">
+            Markiplier
+          </p>
+
+          <p class="stats">
+            19M views &#183;  4 years ago
+          </p>
+          
+          
+        </div>
+        
+      </div>
+     
+    </div>
+
+    <div class="videobox">
+
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-3.webp">
+        <div class="time">9:13</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-3.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">           
+          Crazy Tik Toks Taken Moments Before DISASTER
+          </p>
+          <p class="author">
+            SSSniperWolf
+          </p>
+          <p class="stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+        
+      </div>
+     
+    </div>
+
+    <div class="videobox">
+
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-4.webp">
+        <div class="time">22:09</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-4.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">           
+          
+The Simplest Math Problem No One Can Solve - Collatz Conjecture
+          </p>
+          <p class="author">
+            Veritasium
+          </p>
+          <p class="stats">
+            18M views &#183; 1 year ago
+          </p>
+        </div>
+        
+      </div>
+     
+    </div>
+
+    <div class="videobox">
+
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-5.webp">
+        <div class="time">11:17</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-5.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">           
+          
+            Kadane's Algorithm to Maximum Sum Subarray Problem
+          </p>
+          <p class="author">
+            Cs dojo
+          </p>
+          <p class="stats">
+            519K views &#183; 1 year ago
+          </p>
+        </div>
+        
+      </div>
+     
+    </div>
+
+
+    <div class="videobox">
+
+      <div class="thumbnailrow">
+        <img class="thumbnail" src="thumnail/thumbnail-6.webp">
+        <div class="time">19:59</div>
+      </div>
+  
+      <div class="videoinfogrid">
+  
+        <div class="channelpic">
+          <img class="profile" src="channel-pictures\channel-6.jpeg">
+        </div>
+  
+        <div class="channelinfo">
+          <p class="title">           
+          
+            Anything You Can Fit In The Circle I’ll Pay For
+          </p>
+          <p class="author">
+            MrBeast
+          </p>
+          <p class="stats">
+            141M views &#183; 1 year ago
+          </p>
+        </div>
+        
+      </div>
+     
+    </div>
+
+  </div>
+  
+</body>
+</html>
